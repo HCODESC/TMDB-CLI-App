@@ -1,0 +1,48 @@
+
+
+# Build results
+bin/
+obj/
+
+# VS files
+.vscode/
+.vs/
+*.user
+*.suo
+
+# Build logs
+*.log
+
+# Dotnet-specific
+project.lock.json
+project.fragment.lock.json
+artifacts/
+
+# Dependency packages
+packages/
+
+# Test results
+TestResults/
+
+# Auto-generated files
+Generated_Code/
+
+# User-specific files
+*.rsuser
+*.userosscache
+*.sln.docstates
+
+# Configuration
+appsettings.json
+appsettings.Development.json
+appsettings.Production.json
+
+# OS
+.DS_Store
+Thumbs.db
+
+# Others
+.env
+*.tmp
+*.bak
+*.swp
