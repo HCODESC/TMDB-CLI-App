@@ -30,13 +30,11 @@ dotnet run  --type "upcoming"
 #### Project Structure
 ```
 TmdbCli/
-├── Commands/                    # Contains command classes for Cocona
+├── Commands/                   # Contains command classes for Cocona
 │   ├── MovieCommands.cs        # Commands related to movie operations (e.g., search, details)
-│   └── TrendingCommands.cs     # Commands for fetching trending movies or shows
 ├── Models/                     # Data models for TMDB API responses
 │   ├── Movie.cs                # Movie object model
 │   ├── MovieDetail.cs          # Detailed movie info model
-│   └── TrendingResponse.cs     # Model for trending API response
 ├── Services/                   # Business logic and API interaction
 │   ├── TmdbService.cs          # Handles API calls to TMDB
 │   └── ITmdbService.cs         # Interface for TmdbService (optional, for dependency injection)
