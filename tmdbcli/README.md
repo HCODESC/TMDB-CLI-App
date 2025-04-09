@@ -36,12 +36,10 @@ TmdbCli/
 ├── Models/                     # Data models for TMDB API responses
 │   ├── Movie.cs                # Movie object model
 │   ├── MovieDetail.cs          # Detailed movie info model
-│   └── TrendingResponse.cs     # Model for trending API response
 ├── Services/                   # Business logic and API interaction
 │   ├── TmdbService.cs          # Handles API calls to TMDB
 │   └── ITmdbService.cs         # Interface for TmdbService (optional, for dependency injection)
 ├── Configuration/              # Configuration-related files
-│   ├── AppSettings.cs          # Strongly-typed settings (e.g., API key)
 │   └── appsettings.json        # Configuration file (API key, base URL, etc.)
 ├── Program.cs                  # Entry point with Cocona setup
 ├── TmdbCli.csproj              # Project file
